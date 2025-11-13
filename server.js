@@ -8,7 +8,7 @@ const bcrypt = require("bcryptjs");
 const crypto = require("crypto");
 require("dotenv").config();
 const app = express();
-
+app.use()
 // Middleware
 app.use(cors());
 app.use(express.json());
